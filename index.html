@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniPiano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="piano">
+      <div data-key="65" class="key white">
+        <div class="sound W">A</div>
+      </div>
+      <div data-key="87" class="key black">
+        <div class="sound B">W</div>
+      </div>
+      <div data-key="83" class="key white">
+        <div class="sound W">S</div>
+      </div>
+      <div data-key="69" class="key black">
+        <div class="sound B">E</div>
+      </div>
+      <div data-key="68" class="key white">
+        <div class="sound W">D</div>
+      </div>
+      <div data-key="70" class="key white">
+        <div class="sound W">F</div>
+      </div>
+      <div data-key="84" class="key black">
+        <div class="sound B">T</div>
+      </div>
+      <div data-key="71" class="key white">
+        <div class="sound W">G</div>
+      </div>
+      <div data-key="89" class="key black">
+        <div class="sound B">Y</div>
+      </div>
+      <div data-key="72" class="key white">
+        <div class="sound W">H</div>
+      </div>
+
+      <div data-key="85" class="key black">
+        <div class="sound B">U</div>
+      </div>
+      <div data-key="74" class="key white">
+        <div class="sound W">J</div>
+      </div>
+    </div>
+
+    <audio data-key="65" src="nuts/C.mp3"></audio>
+    <audio data-key="87" src="nuts/Db.mp3"></audio>
+    <audio data-key="83" src="nuts/D.mp3"></audio>
+    <audio data-key="69" src="nuts/Eb.mp3"></audio>
+    <audio data-key="68" src="nuts/E.mp3"></audio>
+    <audio data-key="70" src="nuts/F.mp3"></audio>
+    <audio data-key="84" src="nuts/Gb.mp3"></audio>
+    <audio data-key="71" src="nuts/G.mp3"></audio>
+    <audio data-key="89" src="nuts/Ab.mp3"></audio>
+    <audio data-key="72" src="nuts/A.mp3"></audio>
+    <audio data-key="85" src="nuts/Bb.mp3"></audio>
+    <audio data-key="74" src="nuts/B.mp3"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>

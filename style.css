@@ -1,0 +1,65 @@
+html {
+  background-image: url("./bcg.jpg");
+  background-size: cover;
+  background-position: bottom;
+
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.piano {
+  margin-top: 400px;
+  display: flex;
+}
+
+.key {
+  box-sizing: border-box;
+  height: calc(var(--width) * 4);
+  width: var(--width);
+  transition: all 0.1s;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.white {
+  --width: 100px;
+
+  background-color: white;
+}
+
+.black {
+  --width: 60px;
+
+  background-color: black;
+
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+
+.sound {
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 30px;
+
+  align-items: center;
+}
+
+.W {
+  margin-top: calc(var(--width) * 3.5);
+}
+.B {
+  margin-top: calc(var(--width) * 3.4);
+  color: white;
+}
+
+.push {
+  background-color: rgb(163, 163, 163);
+}
